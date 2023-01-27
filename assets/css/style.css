@@ -72,3 +72,16 @@ h1, h2 {
     font-weight: 700;
     color: #673f3f;
 }
+
+/*   hero image   */
+
+.hero-img {
+    background-image: url('../images/background-img-project1.png');
+    height: 100vh;
+    width: 100wv;
+    position: cover;
+    background-position: 50% 50%;
+    background-size: cover;
+    z-index: -1
+
+}
