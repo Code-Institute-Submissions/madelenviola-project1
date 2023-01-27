@@ -86,14 +86,30 @@ h1, h2 {
 
 }
 
-.hero-content h1 {
-    font-size: 5em;
-    letter-spacing: 4px;
+.hero-content h1{
+   position: absolute;
+   font-size: 6.5em; 
+   height: 90%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   top: 0;
+   left: 0;
+
+}
+
+.hero-content h2{
+    position: relative;
+    font-size: 2em; 
+    height: 30%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     flex-direction: column;
-    height: 50%;
-    width: 100%;
-}
+    top: 0;
+    left: 0;
+ 
+ }
