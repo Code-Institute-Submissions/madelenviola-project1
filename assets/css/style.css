@@ -129,29 +129,47 @@ h1, h2 {
     margin-top: -50px;
  }
 
- .locations-content h2 {
-    font-size: 2em;
+ /*   locations section   */
+
+ .locations-content {
     position: relative;
-    display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    display: flexbox;
+    flex-direction: column;
+ }
+
+ .locations-content h2 {
+    font-size: 2em;
+    position: relative;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
  }
 
  .locations-content .button-one {
     z-index: 4;
     position: relative;
-    display: flex;
+    display: block;
     margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
  }
  .locations-content img {
-    z-index: 3;
+    z-index: auto;
+    display: flex;
     position: relative;
     float: left;
-    padding-left: 50px;
-    margin-top: -300px;
-    max-width: 100%;
+    margin-top: -400px;
+    padding-left: 10%;
     height: auto;
+    width: auto;
+    object-fit: contain;
  }
 
  .locations-box:after {
