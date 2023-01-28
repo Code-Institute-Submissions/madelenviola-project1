@@ -132,16 +132,26 @@ h1, h2 {
  .locations-content h2 {
     font-size: 2em;
     position: relative;
-    float: right;
-    padding-right: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 2;
+ }
+
+ .locations-content .button-one {
+    z-index: 4;
+    position: relative;
+    display: flex;
+    margin-top: 20px;
  }
  .locations-content img {
     z-index: 3;
-    position: absolute;
+    position: relative;
     float: left;
     padding-left: 50px;
     margin-top: -300px;
+    max-width: 100%;
+    height: auto;
  }
 
  .locations-box:after {
