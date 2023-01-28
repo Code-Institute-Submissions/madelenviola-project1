@@ -129,19 +129,19 @@ h1, h2 {
     margin-top: -50px;
  }
 
- .locations-content h1 {
+ .locations-content h2 {
+    font-size: 2em;
     position: relative;
+    float: right;
+    padding-right: 20%;
     z-index: 2;
  }
-
- .button-two {
-    background-color: #f19482;
-    border-radius: 12px;
-    padding: 10px 20px 10px 20px;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 0.7em;
+ .locations-content img {
     z-index: 3;
+    position: absolute;
+    float: left;
+    padding-left: 50px;
+    margin-top: -300px;
  }
 
  .locations-box:after {
