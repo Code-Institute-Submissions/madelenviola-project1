@@ -130,13 +130,13 @@ h1, h2 {
 
 }
 
-.cloud {
+.whipped-cream {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     padding-bottom: 260px;
 }
 
@@ -151,7 +151,7 @@ h1, h2 {
 }
 
 .hero-title span {
-    color: #a26f6f;
+    color: #ee8686;
     font-weight: 800;
 
 }
@@ -195,10 +195,11 @@ h1, h2 {
 
  .locations-content h2 {
     font-size: 2em;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
  }
 
  .locations-content button {
@@ -212,7 +213,7 @@ h1, h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 70px;
+    margin-top: 100px;
     z-index: 4;
 
  }
@@ -221,11 +222,11 @@ h1, h2 {
     display: flex;
     position: relative;
     float: left;
-    padding-left: 10%;
+    padding-left: -100px;
     height: auto;
     width: auto;
     object-fit: contain;
-    margin-top: -200px;
+    margin-top: -400px;
  }
 
  .locations-box:after {
