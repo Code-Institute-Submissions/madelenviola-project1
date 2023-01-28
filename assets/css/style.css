@@ -75,18 +75,19 @@ h1, h2 {
 
 /*   hero image   */
 
-.hero-img {
+
+#hero-img {
     background-image: url('../images/background-img-project1.png');
     height: 100vh;
     width: 100wv;
     position: cover;
     background-position: 50% 50%;
     background-size: cover;
-    z-index: -1
+    z-index: -1;
 
 }
 
-.hero-content h1{
+#hero-content h1 {
    position: absolute;
    font-size: 6.5em; 
    height: 90%;
@@ -100,7 +101,7 @@ h1, h2 {
 
 }
 
-.hero-content h2{
+#hero-content h2 {
     position: relative;
     font-size: 2em; 
     height: 30%;
@@ -112,4 +113,49 @@ h1, h2 {
     top: 0;
     left: 0;
  
+ }
+
+ .button-one {
+    background-color: #f19482;
+    border-radius: 12px;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.7em;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+ }
+
+ .locations-content h1 {
+    position: relative;
+    z-index: 2;
+ }
+
+ .button-two {
+    background-color: #f19482;
+    border-radius: 12px;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.7em;
+    z-index: 3;
+ }
+
+ .locations-box:after {
+    background: white;
+    top: 95%;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(1.5deg);
+    transform-origin: 100%;
+    z-index: 1;
+
  }
