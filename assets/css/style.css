@@ -51,11 +51,17 @@
 }
 
 body {
-    font-family: Dongle, sans-serif;
+    font-family: Dongle, sans-serif !important;
     background-color: #ebd0d1;
     color: #865b5b;
     font-weight: 300;
     font-size: 1.6em;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
 }
 
 /*   logo   */
@@ -267,6 +273,7 @@ h1, h2 {
     object-fit: contain;
     margin-top: -400px;
     margin-bottom: -200px;
+    transform: translate(-8%, -8%);
  }
 
  .locations-box:after {
@@ -279,7 +286,7 @@ h1, h2 {
     position: absolute;
     left: 0;
     right: 0;
-    transform: translate(-60%, -50%);
+    transform: translate(-10%, -10%);
     transform: skewY(1.5deg);
     transform-origin: 100%;
     z-index: 1;
@@ -287,15 +294,29 @@ h1, h2 {
  }
 
   /*   top flavours   */
+  
+  .column {
+    color: #a16a6a;
+    margin: 0 auto;
+    padding-top: 10px;
+    z-index: 6;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    display: table;
+
+  }
 
   .top-flavours {
-    background-color: #fbd7d7;
+    background-color: #f5dfe0;
     z-index: 5;
     display: row;
     text-align: justify;
     width: 100%;
     height: 100vh;
     margin: auto;
+    padding-top: 10%;
+
   }
 
   .top-flavours h1 {
@@ -303,8 +324,8 @@ h1, h2 {
     text-decoration: wavy;
     font-size: 3em;
     margin: 0 auto;
-    padding-top: 180px;
     z-index: 6;
+    padding-top: 5%;
     text-align: center;
   }
 
@@ -317,21 +338,6 @@ h1, h2 {
     text-align: center;
     }
 
-
-  .column {
-    color: #a16a6a;
-    margin: 0 auto;
-    padding-top: 10px;
-    z-index: 6;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    display: table;
-    padding-left: 30px;
-    padding-right: 30px;
-
-  }
-
   .flavours-column h3 {
     color: #a16a6a;
     font-size: 1em;
@@ -339,6 +345,7 @@ h1, h2 {
     margin-top: -30px;
     z-index: 6;
     text-align: center;
+    padding-bottom: 30px;
   }
 
   .top-flavours-row {
@@ -352,6 +359,8 @@ h1, h2 {
   .top-flavours-row p {
     line-height: 25px;
     margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
 
@@ -363,3 +372,25 @@ h1, h2 {
      font-size: 20px;
 
   }  
+
+    /*   footer   */
+
+    footer {
+      height: 150px
+
+    }
+
+    .social-networks {
+      text-align: center;
+    }
+
+    .social-networks > li {
+      display: inline;
+    }
+
+    .social-networks i {
+      font-size: 100%;
+      margin: 1%;
+      padding: 5%;
+      color: #dc6e6e;
+    }
