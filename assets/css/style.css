@@ -373,10 +373,64 @@ h1, h2 {
 
   }  
 
+    /*   menu page   */
+
+    .menu {
+      width: 100%;
+      height: 100vh;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 5%;
+    }
+
+    .menu h1 {
+      margin: 0 auto;
+      color: #ee8686;
+      text-decoration: white wavy underline;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 10px;
+    }
+
+    /*   locations page   */
+
+    .locations {
+      width: 100%;
+      height: 100vh;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 5%;
+    }
+
+    .locations h1 {
+      margin: 0 auto;
+      color: #ee8686;
+      text-decoration: white wavy underline;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 10px;
+    }
+
+    /*   about us page   */
+
+    .about-us {
+      width: 100%;
+      height: 100vh;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 5%;
+    }
+
+    .about-us h1 {
+      margin: 0 auto;
+      color: #ee8686;
+      text-decoration: white wavy underline;
+      text-decoration-thickness: 3px;
+      text-underline-offset: 10px;
+    }
+
     /*   footer   */
 
     footer {
-      height: 150px
+      height: 150px;
 
     }
 
