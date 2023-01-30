@@ -64,6 +64,19 @@ body {
     width: 960px;
 }
 
+li {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 700;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+ul {
+  padding-top: 20px;
+}
+
+
 /*   logo   */
 
 .logo img {
@@ -139,6 +152,18 @@ h1, h2 {
     color: #815757;
 }
 
+h3 {
+  font-family: Dongle, sans-serif;
+  font-weight: 700;
+  color: #815757;
+  padding-top: 20px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 25px;
+}
+
 /*   hero image   */
 
 
@@ -196,13 +221,13 @@ h1, h2 {
 }
 
 .hero-small-title h2 {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #815757;
-    padding-top: 100px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #815757;
+  padding-top: 100px;
 
 }
 
@@ -327,19 +352,14 @@ h1, h2 {
     z-index: 6;
     padding-top: 5%;
     text-align: center;
-    text-decoration: white wavy underline;
-    text-decoration-thickness: 5px;
-    text-underline-offset: 20px;
   }
 
     .top-flavours h2 {
     color: #815757;
-    text-decoration: wavy;
     margin: 0 auto;
     margin-top: -30px;
     z-index: 6;
     text-align: center;
-    padding-top: 20px;
     padding-bottom: 20px;
     }
 
@@ -369,14 +389,6 @@ h1, h2 {
   }
 
 
-  .top-flavours-row li {
-     text-decoration: none;
-     list-style: none;
-     font-weight: 700;
-     line-height: 25px;
-     font-size: 20px;
-
-  }  
 
     /*   menu page   */
 
@@ -386,6 +398,7 @@ h1, h2 {
       margin: 0 auto;
       text-align: center;
       margin-top: 5%;
+      margin-bottom: 20%;
     }
 
     .menu h1 {
@@ -394,6 +407,25 @@ h1, h2 {
       text-decoration: white wavy underline;
       text-decoration-thickness: 3px;
       text-underline-offset: 10px;
+    }
+
+    span {
+      font-weight: 700;
+      color: #dc6e6e;
+      font-size: 0.8em;
+      text-decoration: white wavy underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 10px;
+      margin-bottom: 20px;
+    }
+
+
+    .fluffshake-container {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+
     }
 
     /*   locations page   */
@@ -436,6 +468,8 @@ h1, h2 {
 
     footer {
       height: 150px;
+      background-color: #ebd0d1;
+      padding-top: 20px;
 
     }
 
