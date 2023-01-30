@@ -327,6 +327,9 @@ h1, h2 {
     z-index: 6;
     padding-top: 5%;
     text-align: center;
+    text-decoration: white wavy underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 20px;
   }
 
     .top-flavours h2 {
@@ -336,6 +339,8 @@ h1, h2 {
     margin-top: -30px;
     z-index: 6;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
 
   .flavours-column h3 {
