@@ -183,7 +183,7 @@ button {
 
 
 .hero-img {
-    background-image: url('../images/hero-background-whipshake.png');
+    background-image: url('../images/hero-large.png');
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -233,7 +233,8 @@ button {
 }
 
 .locations-box img {
-  width: 1000px;
+  width: 100%;
+  height: auto;
   margin-top: -250px;
 }
 
@@ -378,7 +379,7 @@ button {
     /* For small screen sizes from 800px and down */
 @media screen and (max-width: 800px) {
   .hero-img {
-    background-image: url('../images/mobile-background-whipshake.png')
+    background-image: url('../images/mobile-whip-hero.png')
 
   }
 
@@ -389,9 +390,8 @@ button {
     }
 
     .locations-box img {
-    width: 360px;
+    width: 100%;
+    height: auto;
     margin-bottom: 20px;
-
-
   }
 }
