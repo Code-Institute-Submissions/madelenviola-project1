@@ -42,7 +42,7 @@
   .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-          font-size: 5.8rem
+          font-size: 5.9rem
 }
 /*   body   */
 
@@ -115,10 +115,10 @@ button {
 /*   logo   */
 
 .logo img {
-    max-height: 150px;
     float: left;
-    margin-top: -60px;
+    margin-top: -30px;
     margin-left: 10%;
+    width: min(40vw, 200px);
 }
 
 /*   button   */
@@ -183,17 +183,15 @@ button {
 
 
 .hero-img {
-    display: flex;
-    flex-direction: column;
     background-image: url('../images/hero-background-whipshake.png');
-    height: 70vh;
-    width: 100vw;
-    align-self: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    display: flex;
+    flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
+    min-height: 80vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .hero-text {
@@ -206,7 +204,7 @@ button {
 }
 
 .hero-text h1 {
-  font-size: 5.8rem !important;
+  font-size: 5.9rem !important;
 }
 
 .hero-text h2 {
@@ -226,12 +224,17 @@ button {
  /*   locations section   */
 
 .locations-box {
-  background-color: #ffffff;
+  background-color: #f9fafb;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
 
+}
+
+.locations-box img {
+  width: 1000px;
+  margin-top: -250px;
 }
 
  .locations-content {
@@ -254,6 +257,7 @@ button {
     line-height: 25px;
     text-align: center;
     margin: 0 auto;
+    width: 50%;
  }
 
  .locations-content span {
@@ -346,6 +350,7 @@ button {
       padding-top: 20px;
       text-align: center;
       color: #ffffff;
+      z-index: 1;
 
     }
 
@@ -373,9 +378,8 @@ button {
     /* For small screen sizes from 800px and down */
 @media screen and (max-width: 800px) {
   .hero-img {
-    background-image: url(../images/mobile-background-whipshake.png);
-    height: 50vh;
-    padding-bottom: 100px;
+    background-image: url('../images/mobile-background-whipshake.png')
+
   }
 
   .locations-content h2 {
@@ -384,4 +388,10 @@ button {
 
     }
 
+    .locations-box img {
+    width: 360px;
+    margin-bottom: 20px;
+
+
   }
+}
