@@ -61,6 +61,7 @@ body {
     padding: 0;
     border: none;
     height: 100%;
+    min-height: 100vh;
 }
 /*   headings   */
 
@@ -236,7 +237,7 @@ button {
 
  /*   locations section   */
 
-.locations-box {
+ .locations-box {
   background-color: #f9fafb;
   width: 100%;
   padding-top: 40px;
@@ -245,7 +246,7 @@ button {
 
 }
 
-.locations-box img {
+ .locations-box img {
   width: 100%;
   height: auto;
   margin-top: -250px;
@@ -306,6 +307,8 @@ button {
       text-align: center;
       margin-top: 5%;
       padding-bottom: 20%;
+      padding-left: 1%;
+      padding-right: 1%;
     }
 
     .menu h1 {
@@ -356,6 +359,30 @@ button {
       text-underline-offset: 10px;
     }
 
+    .locations h2 {
+      margin: 0 auto;
+      color: #815757;
+      line-height: 30px;
+      width: 75%;
+      padding-top: 20px;
+    }
+
+    .locations h3 {
+      margin: 0 auto;
+      color: #dc6e6e;
+      line-height: 30px;
+      width: 75%;
+    }
+
+    .locations p {
+      margin: 0 auto;
+      color: #dc6e6e;
+      font-weight: 700;
+      line-height: 30px;
+      width: 75%;
+      padding-top: 10px;
+    }
+
     /*   about us page   */
 
     .about-us {
@@ -378,17 +405,18 @@ button {
 
     footer {
       background-color: #ee8686;
-      padding-top: 20px;
       text-align: center;
       color: #ffffff;
-    
-
+      bottom: 0;
+      left: 0;
+      right: 0;
+      position: fixed;
     }
+
 
     footer h3 {
       text-align: center;
       color: #ffffff;
-      margin-bottom: -60px;
     }
 
     .social-networks {
