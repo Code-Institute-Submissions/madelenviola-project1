@@ -401,6 +401,51 @@ button {
       text-underline-offset: 10px;
     }
 
+    .about-us h2 {
+    margin: 0 auto;
+    color: #815757;
+    line-height: 30px;
+    width: 75%;
+    padding-top: 20px;
+    }
+
+    .about-us h3 {
+      margin: 0 auto;
+      color: #815757;
+      line-height: 30px;
+      width: 75%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      }
+
+    .about-us p {
+      margin: 0 auto;
+      color: #815757;
+      line-height: 30px;
+      width: 75%;
+      padding-top: 20px;
+    }
+
+  /*  form about us page */
+  
+  .styleform label{float:left;}
+  .styleform input{margin-left:200px;} /* this gives space for the label on the left */
+  .styleform .clear{clear:both;} /* prevent elements from stacking weirdly */
+
+  label { 
+      font-weight: 700;
+      font-size: 1.6rem;
+  }
+
+    input {
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+      margin:10px 0;
+      width:50%;
+    }
+
+
     /*   footer   */
 
     footer {
