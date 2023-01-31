@@ -117,7 +117,6 @@ button {
 /*   logo   */
 
 .logo img {
-    float: left;
     margin-top: -30px;
     margin-left: 10%;
     width: min(40vw, 200px);
@@ -145,14 +144,13 @@ button {
 
 #nav-menu {
     font-size: 4vmin;
+    display: block;
 }
 
 #nav-menu #logo {
-    line-height: 75px;
 }
 
 #nav-menu li {
-    float: right;
     list-style-type: none;
     font-weight: 700;
     margin-right: 30px;
@@ -173,6 +171,7 @@ button {
 }
 
 .nav-box {
+    top: 20px;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -190,7 +189,6 @@ button {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding-top: 30px;
 }
 
 .hero-img {
@@ -242,7 +240,6 @@ button {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 20px;
-  position: absolute;
 
 }
 
@@ -455,7 +452,7 @@ button {
       bottom: 0;
       left: 0;
       right: 0;
-      position: fixed;
+
     }
 
 
