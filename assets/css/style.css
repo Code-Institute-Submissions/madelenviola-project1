@@ -68,7 +68,7 @@ body {
 h1 {
   font-family: Dongle, sans-serif;
   font-weight: 700;
-  color: #815757;
+  color: #dc6e6e;
   font-size: 3.8rem;
 }
 
@@ -76,7 +76,7 @@ h2 {
     font-family: Dongle, sans-serif;
     font-weight: 700;
     color: #815757;
-    font-size: 2.4rem;
+    font-size: 2.3rem;
 }
 
 h3 {
@@ -223,8 +223,12 @@ nav ul {
 }
 
 .hero-text h1 {
+  color: #dc6e6e;
   padding-top: 7px;
-  padding-bottom: 7px;
+  padding-bottom: 20px;
+  text-decoration: white wavy underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
 }
 
 #hero button {
@@ -240,7 +244,7 @@ nav ul {
  /*   locations section   */
 
  .locations-box {
-  background-color: #f9fafb;
+  background-color: #fce8e9;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -254,18 +258,27 @@ nav ul {
   margin-top: -250px;
 }
 
+.locations-content img {
+  width: 30vw;
+  margin: 0 auto;
+  height: auto;
+}
+
  .locations-content {
     position: relative;
-    padding-top: 30px;
     padding-bottom: 40px;
     text-align: center;
  }
 
  .locations-content h2 {
     position: relative;
-    line-height: 40px;
+    line-height: 45px;
     padding-bottom: 20px;
     text-align: center;
+    color: #dc6e6e;
+    text-decoration: white wavy underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px;
  }
 
  .locations-content p {
@@ -287,20 +300,28 @@ nav ul {
 .flavours-box {
   padding-top: 20px;
   padding-bottom: 60px;
-  background-color: #f9e2e6;
+  background-color: #f4dcdd;
 }
+
+.flavours-content img {
+  max-width: 50%;
+  max-height: 50%;
+  padding-top: 20px;
+}
+
 .flavours-content {
-  background-color: #f9e2e6;
   width: 100%;
   height: auto;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   text-align: center;
+  column-gap: 50px;
 }
+
 
 .flavour-of-the-month-text {
   font-size: 1rem;
@@ -311,14 +332,7 @@ nav ul {
   margin-bottom: -30px;
  }
 
-
-.flavour-of-the-month img {
-  max-width: 50%;
-  max-height: 50%;
-  padding-top: 20px;
-}
-
-    /*   menu page   */
+  /*   menu page   */
 
     .menu {
       width: 80%;
@@ -345,7 +359,7 @@ nav ul {
 
     span {
       font-weight: 700;
-      color: #e083a3;
+      color: #f08584;
 
     }
 
@@ -501,6 +515,7 @@ nav ul {
       display: inline-block;
       line-height: 20px;
       margin-top: 30px;
+      margin-bottom: 20px;
       color: #ffffff;
     }
 
@@ -591,6 +606,6 @@ nav ul {
     line-height: 30px;
     font-size: 3rem;
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
    }
 }
