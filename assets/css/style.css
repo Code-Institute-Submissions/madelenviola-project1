@@ -101,7 +101,7 @@ li {
 }
 
 ul {
-  padding-top: 20px;
+  line-height: 25px;
 }
 
 button {
@@ -141,7 +141,7 @@ header {
 /*   header logo   */
 
 nav img {
-  width: min(50vw, 200px);
+  width: min(40vw, 200px);
   margin-left: 10%;
   margin-top: -50px;
   text-decoration: none;
@@ -152,7 +152,11 @@ nav img {
 
 #nav-list {
   font-size: 110%;
-  padding-right: 50px;
+  padding-right: 2%;
+}
+
+nav ul {
+  padding-top: 20px;
 }
   
 #nav-list a {
@@ -166,10 +170,9 @@ nav img {
   text-align: center;
   text-decoration: none;
   flex-direction: row-reverse;
-  margin-right: 20px;
   list-style-type: none;
   color: #dc6e6e;
-  padding-right: 40px;
+  padding-right: 20px;
   padding-top: 10px;
 }
 .top-nav :nth-child(1) {order: 4;}
@@ -212,7 +215,7 @@ nav img {
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 40px;
@@ -295,7 +298,7 @@ nav img {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   text-align: center;
 }
 
@@ -312,6 +315,7 @@ nav img {
 .flavour-of-the-month img {
   max-width: 50%;
   max-height: 50%;
+  padding-top: 20px;
 }
 
     /*   menu page   */
@@ -460,7 +464,19 @@ nav img {
       border-radius: 10px;
       box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
       margin:10px 0;
-      width:50%;
+      width: 50vw;
+    }
+
+     /*   credits page   */
+
+    .credits-box {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 5%;
+      padding-bottom: 20%;
+      padding-left: 1%;
+      padding-right: 1%;
     }
 
 
@@ -473,13 +489,19 @@ nav img {
       bottom: 0;
       left: 0;
       right: 0;
-
     }
 
-
-    footer h3 {
-      text-align: center;
+    .footer-element h3 {
+      padding-right: 30px;
+      display: inline-block;
+      line-height: 20px;
+      margin-top: 30px;
       color: #ffffff;
+    }
+
+    .footer-element a {
+      text-decoration: none;
+      color: inherit;
     }
 
     .social-networks {
@@ -493,16 +515,24 @@ nav img {
     .social-networks i {
       font-size: 100%;
       margin: 1%;
-      padding: 5%;
+      padding: 1%;
       color: #ffffff;
+      margin-bottom: 30px;
     }
+
 
     /* For small screen sizes from 800px and down */
 @media screen and (max-width: 800px) {
   
+  nav img {
+    width: min(40vw, 150px);
+    margin-left: 4%;
+    margin-top: -50px;
+    text-decoration: none;
+  }
+
   #nav-list li {
     font-size: 110%;
-    padding-right: 0;
 
   }
 
@@ -517,7 +547,7 @@ nav img {
 
   .hero-text {
     line-height: 35px;
-    top: 30%;
+    top: 25%;
   }
 
   #hero button {
