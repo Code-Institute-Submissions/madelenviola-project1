@@ -519,10 +519,22 @@ nav ul {
       color: #ffffff;
       margin-bottom: 30px;
     }
+    /* For screen sizes from 920px and down */
+    @media screen and (max-width: 920px) {
+     
+      .hero-text {
+        line-height: 35px;
+        top: 25%;
+      }
+      
+      .hero-img {
+        background-image: url('../images/tablet-hero-whipshake.png');
+        background-position: center;
+      }
+    }
 
-
-    /* For small screen sizes from 800px and down */
-@media screen and (max-width: 800px) {
+    /* For small screen sizes from 600px and down */
+  @media screen and (max-width: 600px) {
   
   nav img {
     width: min(40vw, 150px);
@@ -533,7 +545,6 @@ nav ul {
 
   #nav-list li {
     font-size: 110%;
-
   }
 
   #hero {
