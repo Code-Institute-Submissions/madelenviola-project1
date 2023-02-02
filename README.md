@@ -120,11 +120,9 @@ Bottom is mobile that has a lower score on performance.
 
 ## Findings Code validation
 ### CSS passed validation, see links below to test per page.
-- [Index page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-- [Locations page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Flocations.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-- [Menu page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Fmenu.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-- [About us page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Fabout-us.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-- [Credits page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Fcredits.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- [CSS validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Findex.
+
+![HTML validation](./assets/images/readme-images/cssvalidation.png)
 
 ### HTML validation
 ### HTML passed validation, see links below to test per page.
