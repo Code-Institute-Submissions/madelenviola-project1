@@ -57,6 +57,7 @@ This website is for a fictional milkshake bar named WhipShake with the purpose o
 - Thank you for submitting page when applying for a position on the **About Us page.**
 - Link and information to order via home delivery service.
 - Improve the look of the responsive hero for all devices to have better placement of the hero image especially for tablet sizes and landscape view on smartphones.
+- Increase performance for mobile devices.
 
 ## Typography and color scheme
 - The font is Google Fonts **Dongle** and fall back is sans-serif. 
@@ -64,7 +65,7 @@ This website is for a fictional milkshake bar named WhipShake with the purpose o
 - Textures are added to make the website feel more 3D. The textures are whipped cream.
 
 
-![Color scheme palette](assets/images/readme-images/color-scheme.png)
+![Color scheme palette](./assets/images/readme-images/color-scheme.png)
 
 ## Design
 ### The look and feel of the website
@@ -88,7 +89,7 @@ The images used on the website is compressed with tinypng.
 
 ## Wireframe Mobile device
 
-![This is an image](assets/images/readme-images/wireframe-mobile.png)
+![Wireframe image](./assets/images/readme-images/wireframe-mobile.png)
 
 ## Technology
 - HTML5
@@ -102,6 +103,14 @@ The images used on the website is compressed with tinypng.
 ### Code validation
 - HTML tested via [W3C](https://validator.w3.org/)
 - CSS tested via [W3C](https://jigsaw.w3.org/css-validator/)
+- Accessability, performance, best practises and seo check by [PageSpeed Insights](https://pagespeed.web.dev/)
+
+### PageSpeed Insights findings:
+Top is desktop with a higher score.
+Bottom is mobile that has a lower score on performance. 
+- Improvements will be made to mobile performence score in future features.
+
+![Desktop performance](./assets/images/readme-images/pageinsights-performance.png)
 
 ## Findings Code validation
 ### CSS passed validation.
@@ -113,6 +122,12 @@ The images used on the website is compressed with tinypng.
 
 ### HTML validation
 HTML has error - "Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)"
+
+### User testing
+- Manual check that all links work and open as they should.
+- Manual check that outlinks work as they should. 
+- Manual check that form submits. 
+- Manual check that credit links work as they should.
 
 ### Browsers
 The site is supported and tested in:
@@ -138,3 +153,18 @@ The site is supported and tested in:
 - When you visit the GitHub repository, click on the Settings tab, and choose **Pages** from the menu
 - From source drop-down menu, choose **Master Branch**
 - When master branch has been selected, the page will refresh to show if deployment was successful. 
+
+# Credits
+- [Pink whip photo by upklyak from Freepik](https://www.freepik.com/free-vector/whipped-pink-cream-swirl-meringue-side-view-3d_27472798.htm#query=whip%20cream&position=37&from_view=search&track=sph)
+- [Whipped cream border photo by upklyak from Freepik](https://www.freepik.com/free-vector/whipped-cream-border-white-vanilla-swirl_27103728.htm#page=2&query=whip%20cream&position=19&from_view=search&track=sph)
+- [Pink milkshake photo by Racool_studio from Freepik](https://www.freepik.com/free-photo/delicious-milkshake_8169879.htm#query=milkshakes&position=13&from_view=search&track=sph)
+- [Milk splash by chikenbugagashenka from Freepik](https://www.freepik.com/free-vector/milk-natural-tasty-breakfast-drink-set_20969056.htm#query=illustrations%20milkshake&position=23&from_view=search&track=sph)
+- [Hand holding milkshake photo by FreePik](https://www.freepik.com/free-photo/close-up-hand-holding-tasty-shake_9137979.htm#page=5&query=milkshake&position=40&from_view=search&track=sph)
+- [Chocolate Milkshake photo by FreePik](https://www.freepik.com/free-photo/glass-chocolate-shake-table_13448052.htm#query=chocolate%20milkshake&position=43&from_view=search&track=sph)
+- [Tracking in animation on hero text by Animista](https://animista.net/play/text/tracking-in)
+- [Social media icons by fontawesome](https://fontawesome.com/)
+- [Blob for logo by blobmaker](https://www.blobmaker.app/?ref=81766.com)
+
+# Acknowledgement
+- [W3Schools](https://www.w3schools.com/)
+Has a post about right about every thing I needed to know.
