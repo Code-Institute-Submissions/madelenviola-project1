@@ -106,9 +106,9 @@
 /* nav menu */
 
 .top-nav {
-  width: 53%;
   margin-top: 10px;
   display: inline-block;
+  text-align: right;
 }
 
 .top-nav li {
@@ -118,7 +118,7 @@
  #nav-list {
      font-size: 110%;
      padding-right: 2%;
-     width: 100%;
+     width: 49%;
      display: inline-block;
 }
  nav ul {
