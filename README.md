@@ -21,6 +21,8 @@ This website is for a fictional milkshake bar named WhipShake with the purpose o
 - The Navigation links will change color when you hover over them and when active will stay underlined.
 
 ## Main page
+![main page design](./assets/images/readme-images/whipshake-screenshots.png)
+
 ### Hero Image
 - Features a full width hero image with a milkshake with whip cream and graphics of milk splashing and pink whip cream behind it. 
 - Hero text advertises a new flavour.
@@ -34,6 +36,8 @@ This website is for a fictional milkshake bar named WhipShake with the purpose o
 - Shows the flavour of the month with a photo of a chocolate milkshake and information about the contents of the milkshake.
 - The CTA is to view the menu and a button links to the menu page. 
 
+![about us and credits design](./assets/images/readme-images/mobile-screenshots-menu-locations.png)
+
 ### Locations
 - Displays addresses of the Milkshake bar with opening hours.
 
@@ -42,6 +46,8 @@ This website is for a fictional milkshake bar named WhipShake with the purpose o
 
 ### About us
 - Story behind the company with a form to apply for work.
+
+![about us and credits design](./assets/images/readme-images/whipshake-screenshots-about-credits.png)
 
 ### Credits
 - Credits for imagery and vectors used to create the website.
