@@ -89,7 +89,7 @@ h3 {
 
 p {
   line-height: 25px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 li {
@@ -104,7 +104,9 @@ ul {
   line-height: 25px;
 }
 
-button {
+/*   button   */
+
+.button {
   font-family: Dongle, sans-serif;
   background-color: #f67b7b;
   border-radius: 10px;
@@ -112,24 +114,7 @@ button {
   color: #ffffff;
   font-weight: 700;
   font-size: 1.4rem;
-}
-
-/*   button   */
-
-.button {
-    font-family: Dongle, sans-serif;
-    background-color: #f6655d;
-    border-radius: 10px;
-    padding: 5px 20px 5px 20px;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 1em;
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    margin-top: 50px;
-    z-index: 7;
-    font-size: 3.8rem
+  text-decoration: none;
 }
 
 /*   header  */
@@ -595,7 +580,10 @@ nav ul {
   .locations-box img {
     width: 100%;
     height: auto;
-    margin-bottom: 30px;
+  }
+
+  .whip-cream-border img {
+    padding-bottom: 30px;
   }
 
   .flavours-content {
