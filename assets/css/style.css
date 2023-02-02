@@ -101,16 +101,29 @@
  nav img {
      width: min(40vw, 200px);
      margin-left: 10%;
-     margin-top: -50px;
      text-decoration: none;
 }
 /* nav menu */
+
+.top-nav {
+  width: 53%;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.top-nav li {
+
+}
+
  #nav-list {
      font-size: 110%;
      padding-right: 2%;
+     width: 100%;
+     display: inline-block;
 }
  nav ul {
-     padding-top: 20px;
+  margin-bottom: 7px;
+
 }
  #nav-list a {
      text-decoration: none;
@@ -465,6 +478,7 @@
          margin-top: -50px;
          text-decoration: none;
     }
+
      #nav-list li {
          font-size: 110%;
     }
