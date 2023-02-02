@@ -3,7 +3,7 @@ This website is for a fictional milkshake bar named WhipShake with the purpose o
 
 [Here is a link to the project](https://madelenviola.github.io/project1/)
 
-![website design mockup](../project1/assets/images/scenes-whipshake.png)
+![website design mockup](./assets/images/readme-images/scenes-whipshake.png)
 
 ## User Story
 ### Why users should visit the website
@@ -64,7 +64,7 @@ This website is for a fictional milkshake bar named WhipShake with the purpose o
 - Textures are added to make the website feel more 3D. The textures are whipped cream.
 
 
-![Color scheme palette](../project1/assets/images/color-scheme.png)
+![Color scheme palette](assets/images/readme-images/color-scheme.png)
 
 ## Design
 ### The look and feel of the website
@@ -88,7 +88,7 @@ The images used on the website is compressed with tinypng.
 
 ## Wireframe Mobile device
 
-![This is an image](../project1/assets/images/wireframe-mobile.png)
+![This is an image](assets/images/readme-images/wireframe-mobile.png)
 
 ## Technology
 - HTML5
@@ -103,9 +103,22 @@ The images used on the website is compressed with tinypng.
 - HTML tested via [W3C](https://validator.w3.org/)
 - CSS tested via [W3C](https://jigsaw.w3.org/css-validator/)
 
-### Findings Code validation
-- CSS passed validation.
-- HTML has error - "Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)"
+## Findings Code validation
+### CSS passed validation.
+- [Index page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- [Locations page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Flocations.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- [Menu page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Fmenu.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- [About us page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Fabout-us.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- [Credits page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Fcredits.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### HTML validation
+HTML has error - "Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)"
+
+### Browsers
+The site is supported and tested in:
+- Safari
+- Chrome
+- Mozilla Firefox
 
 ### Fixed bugs
 - Responsivity fix for frontpage across all screen sizes.
