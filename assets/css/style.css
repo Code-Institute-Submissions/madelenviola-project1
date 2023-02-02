@@ -216,7 +216,7 @@ nav ul {
   text-underline-offset: 10px;
 }
 
-#hero button {
+#hero .button {
   position: absolute;
   top: 30%;
   left: 50%;

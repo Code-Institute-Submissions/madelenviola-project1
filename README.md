@@ -1,9 +1,9 @@
 # Whipshake Milkshake bar
 This website is for a fictional milkshake bar named WhipShake with the purpose of guiding milkshake lovers looking for a treat to it's location and allowing visitors to view the menu. The purpose of the website is to make you want a milkshake asap!
 
-[Here is a link to the project](https://madelenviola.github.io/project1/index.html)
+[Here is a link to the project](https://madelenviola.github.io/project1/)
 
-![This is an image](../project1/assets/images/scenes-whipshake.png)
+![website design mockup](../project1/assets/images/scenes-whipshake.png)
 
 ## User Story
 ### Why users should visit the website
@@ -64,7 +64,7 @@ This website is for a fictional milkshake bar named WhipShake with the purpose o
 - Textures are added to make the website feel more 3D. The textures are whipped cream.
 
 
-![This is an image](../project1/assets/images/color-scheme.png)
+![Color scheme palette](./project1/assets/images/color-scheme.png)
 
 ## Design
 ### The look and feel of the website
@@ -104,7 +104,8 @@ The images used on the website is compressed with tinypng.
 - CSS tested via [W3C](https://jigsaw.w3.org/css-validator/)
 
 ### Findings Code validation
-
+- CSS passed validation.
+- A element not allowed as child to UL element.
 
 ### Fixed bugs
 - Responsivity fix for frontpage across all screen sizes.
@@ -116,7 +117,7 @@ The images used on the website is compressed with tinypng.
 
 ### Known bugs
 - Form missing thank you for submitting completed form page
-- HTML tag conflict
+- A element not allowed as child to UL element
 
 ## Deployment
 
