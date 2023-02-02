@@ -106,23 +106,29 @@
 /* nav menu */
 
 .top-nav {
+  width: 45%;
   margin-top: 10px;
   display: inline-block;
-  text-align: right;
+  position: relative;
+  top: -55px;
 }
 
 nav img {
   width: min (55vw, 150px);
-  margin-top: -40px;
-  padding-left: 30px;
+  margin-top: 0px;
+  padding-left: 20px;
 
 }
 
- #nav-list {
-     font-size: 110%;
-     padding-right: 2%;
-     width: 49%;
-     display: inline-block;
+#nav-list {
+  /* font-size: 110%; */
+  /* padding-right: 2%; */
+  width: 49%;
+  display: inline-block;
+  text-align: right;
+  position: relative;
+  top: -86px;
+  padding-left: 10px;
 }
  nav ul {
   margin-bottom: 7px;
@@ -132,17 +138,19 @@ nav img {
      text-decoration: none;
      color: inherit;
 }
- #nav-list li {
-     float: right;
-     color: #f2f2f2;
-     text-align: center;
-     text-decoration: none;
-     flex-direction: row-reverse;
-     list-style-type: none;
-     color: #dc6e6e;
-     padding-right: 20px;
-     padding-top: 10px;
+    #nav-list li {
+    /* float: right; */
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    color: #dc6e6e;
+    padding-right: 20px;
+    /* padding-top: 10px; */
+    display: inline-block;
 }
+
  .top-nav :nth-child(1) {
     order: 4;
 }
@@ -475,13 +483,9 @@ nav img {
 }
 /* For small screen sizes from 600px and down */
  @media screen and (max-width: 600px) {
-     nav img {
-         width: min(40vw, 150px);
-         margin-left: 4%;
-         margin-top: -50px;
-         text-decoration: none;
-    }
-
+  nav img {
+   padding-top: 20px;
+}
      #nav-list li {
          font-size: 110%;
     }
