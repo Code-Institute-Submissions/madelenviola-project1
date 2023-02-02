@@ -1,108 +1,125 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Whipshake Milkshake bar
+This website is for a fictional milkshake bar named WhipShake with the purpose of guiding milkshake lovers looking for a treat to it's location and allowing visitors to view the menu. The purpose of the website is to make you want a milkshake asap!
 
-Welcome madelenviola,
+[Here is a link to the project](https://madelenviola.github.io/project1/index.html)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![This is an image](../project1/assets/images/scenes-whipshake.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## User Story
+### Why users should visit the website
+- To find where you could get a Milkshake
+- To view the menu
+- To see flavour of the month
+- To apply for a work position
+- To read more about WhipShake
 
-## Gitpod Reminders
+## Features
+### Navigation
+- Navigation is at the top right corner on all screen sizes.
+- The image logo is responsive and linked to the homepage.
+- The navigation links in the header takes you to **Locations**, **Menu** and **Home**.
+- The Navigation links will change color when you hover over them and when active will stay underlined.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Main page
+### Hero Image
+- Features a full width hero image with a milkshake with whip cream and graphics of milk splashing and pink whip cream behind it. 
+- Hero text advertises a new flavour.
+- A CTA button lies underneath directing the visitor to the menu.
 
-`python3 -m http.server`
+### Grab a shake today!
+- Underneath the hero lies a section with information about the milkshake bar and a CTA to visit and order. 
+- The button links to **Locations** where you can see where the milkshake bar is located to buy a milkshake and view opening hours.  
 
-A blue button should appear to click: _Make Public_,
+### Flavour of the month
+- Shows the flavour of the month with a photo of a chocolate milkshake and information about the contents of the milkshake.
+- The CTA is to view the menu and a button links to the menu page. 
 
-Another blue button should appear to click: _Open Browser_.
+### Locations
+- Displays addresses of the Milkshake bar with opening hours.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Menu
+- The visitor can see alla available menu options, prices and if the milkshake has a dairy free option.
 
-A blue button should appear to click: _Make Public_,
+### About us
+- Story behind the company with a form to apply for work.
 
-Another blue button should appear to click: _Open Browser_.
+### Credits
+- Credits for imagery and vectors used to create the website.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Footer
+- The footer is a stand out pink color with contrasting white links to **About Us** and **Credits**.
+- The Footer link to the **About Us** page features information about WhipShake and a sign-up form for applying for work.
+- Social links to **Facebook**, **Instagram**, **Twitter** and **Pinterest** are found at the bottom and links out the Social Media sites.
 
-To log into the Heroku toolbelt CLI:
+## Future features
+### Features and funtions to be added in the future.
+- Hamburger menu for top navigation when using a device like a tablet or smartphone.
+- Thank you for submitting page when applying for a position on the **About Us page.**
+- Link and information to order via home delivery service.
+- Improve the look of the responsive hero for all devices to have better placement of the hero image especially for tablet sizes and landscape view on smartphones.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Typography and color scheme
+- The font is Google Fonts **Dongle** and fall back is sans-serif. 
+- The color scheme of the website is different shades of pink combined with a chocolaty brown and a stand out peachy color.
+- Textures are added to make the website feel more 3D. The textures are whipped cream.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+![This is an image](../project1/assets/images/color-scheme.png)
 
-## Release History
+## Design
+### The look and feel of the website
+- The goal of the design was for it to feel fun and up beat. 
+- The design is enhanced by 3D elements like the whip cream border separating the hero section from the section underneath. The same 3D whip cream border is used as a frame for photos on the main page. 
+- A wavy underline added to certain headlines to make them stand out in a fun way that goes with the theme.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Images
+### Images are sourced from creators at [freepik.](https://www.freepik.com/)
+The images used on the website is compressed with tinypng.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- Pink Milkshake Image used in hero on main page by [Racool_studio on Freepik](https://www.freepik.com/free-photo/delicious-milkshake_8169879.htm#query=milkshakes&position=13&from_view=search&track=sph)
+- Chocolate milkshake used on main page by [freepik](https://www.freepik.com/free-photo/glass-chocolate-shake-table_13448052.htm#query=chocolate%20milkshake%20cookies&position=4&from_view=search&track=ais)
+- Hand holding milkshake used on main page by [freepik](https://www.freepik.com/free-photo/glass-chocolate-shake-table_13448052.htm#query=chocolate%20milkshake%20cookies&position=4&from_view=search&track=ais)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Vectors used to create graphics
+- Blob vector to create logo created in [Blobmaker](https://www.blobmaker.app/?ref=81766.com)
+- Whipped Cream by [upklyak](https://www.freepik.com/free-vector/whipped-cream-border-white-vanilla-swirl_27103728.htm)
+- Pink whipped cream by [upklyak](https://www.freepik.com/free-vector/whipped-pink-cream-swirl-meringue-side-view-3d_27472798.htm#query=whip%20cream&position=37&from_view=search&track=sph)
+- Milk splash by [chikenbugagashenka](https://www.freepik.com/free-vector/milk-natural-tasty-breakfast-drink-set_20969056.htm)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Wireframe Mobile device
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![This is an image](../project1/assets/images/wireframe-mobile.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Technology
+- HTML5
+- GitPod Online IDE
+- GitHub host repository
+- Google Fonts
+- CSS3
+- [Animista animation](https://animista.net/play/text/tracking-in) 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing
+### Code validation
+- HTML tested via [W3C](https://validator.w3.org/)
+- CSS tested via [W3C](https://jigsaw.w3.org/css-validator/)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Findings Code validation
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Fixed bugs
+- Responsivity fix for frontpage across all screen sizes.
+- Unclosed tags
+- Defect out link javascript that has been removed completely
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Supported screens
+- Smartphone, tablet and desktop sizes. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Known bugs
+- Form missing thank you for submitting completed form page
+- HTML tag conflict
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Deployment
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- When you visit the GitHub repository, click on the Settings tab, and choose **Pages** from the menu
+- From source drop-down menu, choose **Master Branch**
+- When master branch has been selected, the page will refresh to show if deployment was successful. 
