@@ -119,7 +119,7 @@ Bottom is mobile that has a lower score on performance.
 ![Desktop performance](./assets/images/readme-images/pageinsights-performance.png)
 
 ## Findings Code validation
-### CSS passed validation.
+### CSS passed validation, see links below to test per page.
 - [Index page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - [Locations page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Flocations.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - [Menu page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Fmenu.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
@@ -127,7 +127,14 @@ Bottom is mobile that has a lower score on performance.
 - [Credits page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Fcredits.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### HTML validation
-HTML has error - "Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)"
+### HTML passed validation, see links below to test per page.
+- [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Findex.html)
+- [menu.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Fmenu.html)
+- [locations.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Flocations.html)
+- [about-us.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmadelenviola.github.io%2Fproject1%2Fabout-us.html)
+- [credits.html]
+
+![HTML validation](./assets/images/readme-images/validation.png)
 
 ### User testing
 - Manual check that all links work and open as they should.
@@ -143,14 +150,15 @@ The site is supported and tested in:
 
 ### Fixed bugs
 - Responsivity fix for frontpage across all screen sizes.
-- Unclosed tags
-- Defect out link javascript that has been removed completely
+- Unclosed tags.
+- Defect out link javascript that has been removed completely.
+- Removing trailing slashes from code.
+- Navigation bar not working properly and not aligning top right. 
 
 ### Supported screens
 - Smartphone, tablet and desktop sizes. 
 
 ### Known bugs
-- HTML - "A element not allowed as child to UL element"
 - Menu not aligning properly on small smartphone sizes.
 - Wavy underline text decoration not visible on Safari browser.
 
@@ -172,5 +180,6 @@ The site is supported and tested in:
 - [Blob for logo by blobmaker](https://www.blobmaker.app/?ref=81766.com)
 
 # Acknowledgement
+- My mentor at Code Institute, Sandeep Aggarwal who helped me immensely when I was scratching my head not finding a solution. Navigation bar issues would not have been fixed without him mentoring me. 
 - [W3Schools](https://www.w3schools.com/)
 Has a post about right about every thing I needed to know.
