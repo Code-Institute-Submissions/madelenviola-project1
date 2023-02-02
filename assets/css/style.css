@@ -529,8 +529,8 @@ nav ul {
       color: #ffffff;
       margin-bottom: 30px;
     }
-    /* For screen sizes from 920px and down */
-    @media screen and (max-width: 920px) {
+    /* For screen sizes from 1000px and down */
+    @media screen and (max-width: 1000px) {
      
       .hero-text {
         line-height: 35px;
@@ -543,7 +543,7 @@ nav ul {
       }
     }
 
-    /* For small screen sizes from 600px and down */
+  /* For small screen sizes from 600px and down */
   @media screen and (max-width: 600px) {
   
   nav img {
