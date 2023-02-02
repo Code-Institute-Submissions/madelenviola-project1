@@ -64,7 +64,7 @@ This website is for a fictional milkshake bar named WhipShake with the purpose o
 - Textures are added to make the website feel more 3D. The textures are whipped cream.
 
 
-![Color scheme palette](./project1/assets/images/color-scheme.png)
+![Color scheme palette](../project1/assets/images/color-scheme.png)
 
 ## Design
 ### The look and feel of the website
@@ -105,7 +105,7 @@ The images used on the website is compressed with tinypng.
 
 ### Findings Code validation
 - CSS passed validation.
-- A element not allowed as child to UL element.
+- HTML has error - "Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)"
 
 ### Fixed bugs
 - Responsivity fix for frontpage across all screen sizes.
@@ -116,8 +116,9 @@ The images used on the website is compressed with tinypng.
 - Smartphone, tablet and desktop sizes. 
 
 ### Known bugs
-- Form missing thank you for submitting completed form page
-- A element not allowed as child to UL element
+- HTML - "A element not allowed as child to UL element"
+- Menu not aligning properly on small smartphone sizes.
+- Wavy underline text decoration not visible on Safari browser.
 
 ## Deployment
 
